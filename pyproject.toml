@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "shop-201"
+version = "0.1.0"
+description = "Telegram Bot Shop"
+authors = ["He <tg @kutt_Loggin>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+environs = "^9.3.4"
+betterlogging = "0.1.0"
+aiofile = "^3.7.2"
+aiogram = "3.0.0b4"
+aiohttp = {extras = ["speedups"], version = "^3.8.1"}
+aiogram_dialog = "2.0.0b10.dev2"
+aiolimiter = "^1.0.0"
+arrow = "^1.2.2"
+fluentogram = "^1.1.2"
+SQLAlchemy = "^1.4.39"
+asyncpg = "^0.26.0"
+aioredis = "^2.0.1"
+redis = "^4.3.4"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3.0"
+sqlalchemy-stubs = "^0.4"
+# sqlalchemy2-stubs = "^0.0.2a21"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
